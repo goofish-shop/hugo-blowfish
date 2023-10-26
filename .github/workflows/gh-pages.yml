@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify  --baseURL https://goofish-shop.github.io/hugo-blowfish
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.2
         with:
