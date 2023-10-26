@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://goofish-shop.github.io/hugo-blowfish/sitemap.xml
